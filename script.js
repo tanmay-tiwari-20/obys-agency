@@ -50,7 +50,7 @@ tl.from("#line1-part1", {
             else {
                 h5timer.innerHTML = grow
             }
-        }, 33)
+        }, 28)
     }
 })
 tl.to(".line h2",{
@@ -60,7 +60,7 @@ tl.to(".line h2",{
 tl.to("#loader", {
     opacity: 0,
     duration: 0.2,
-    delay: 0
+    delay: 2.6
 })
 tl.from("#page1", {
     y:1600,
@@ -90,7 +90,7 @@ function cursorAnimation(){
         ease:"cubic-bezier(0.23.1,0.320,1)",
         duration:1,
     })
-    Shery.makeMagnet("#nav-part2 h4");
+    Shery.makeMagnet("#nav-part2 h4")
     var videoContainer = document.querySelector("#video-container")
     var video = document.querySelector("#video-container video")
     videoContainer.addEventListener("mouseenter",function(){
