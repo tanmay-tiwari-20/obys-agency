@@ -6,9 +6,15 @@ function locomotiveAnimation(){
         smooth: true,
         smartphone: {
             smooth: true,
+            direction: 'vertical', // Ensure vertical scrolling on smartphones
+            gestureDirection: 'vertical',
+            breakpoint: 0
         },
         tablet: {
             smooth: true,
+            direction: 'vertical', // Ensure vertical scrolling on tablets
+            gestureDirection: 'vertical',
+            breakpoint: 0
         }
     });
 
