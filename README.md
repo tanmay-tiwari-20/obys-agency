@@ -17,12 +17,8 @@ This project is a clone of the Obys Agency website, created to practice advanced
   - **Shery.js**: For animation sequences.
   - **Textillate.js**: For text animations.
 
-## 🖥️ Setup Instructions
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/tanmay-tiwari-20/obys-agency.git
-   🚀 Usage
+## 🚀 Usage
    
 Explore the website to see various animations, scrolling effects, and interactive elements.
 The project serves as an example for learning modern web development techniques.
